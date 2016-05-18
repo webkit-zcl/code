@@ -1,0 +1,83 @@
+{
+  "ret": true,
+  "errCode": 24,
+  "errMsg": "",
+  "data": [
+    {
+      "img": "/mywebapp/images/img1.jpg",
+      "title": "重点推荐"
+    },
+    {
+      "img": "/mywebapp/images/img2.jpg",
+      "title": "区域加盟"
+    },
+    {
+      "img": "/mywebapp/images/img3.jpg",
+      "title": "时尚凉鞋"
+    },
+    {
+      "img": "/mywebapp/images/img4.jpg",
+      "title": "粗跟鞋"
+    },
+    {
+      "img": "/mywebapp/images/img5.jpg",
+      "title": "高跟鞋"
+    },
+    {
+      "img": "/mywebapp/images/img6.jpg",
+      "title": "平底鞋"
+    },
+    {
+      "img": "/mywebapp/images/img7.jpg",
+      "title": "鞋与生活"
+    },
+    {
+      "img": "/mywebapp/images/img8.jpg",
+      "title": "坡跟鞋"
+    },
+    {
+      "img": "/mywebapp/images/img9.jpg",
+      "title": "防水台"
+    },
+    {
+      "img": "/mywebapp/images/img10.jpg",
+      "title": "厚底鞋"
+    },
+    {
+      "img": "/mywebapp/images/img11.jpg",
+      "title": "我的鞋柜"
+    },
+    {
+      "img": "/mywebapp/images/img12.jpg",
+      "title": "鞋衣搭配"
+    },
+    {
+      "img": "/mywebapp/images/img13.jpg",
+      "title": "热门款式"
+    },
+    {
+      "img": "/mywebapp/images/img14.jpg",
+      "title": "终端经营"
+    },
+    {
+      "img": "/mywebapp/images/img15.jpg",
+      "title": "欧美经典"
+    },
+    {
+      "img": "/mywebapp/images/img16.jpg",
+      "title": "行业展会"
+    },
+    {
+      "img": "/mywebapp/images/img17.jpg",
+      "title": "技术交流"
+    },
+    {
+      "img": "/mywebapp/images/img18.jpg",
+      "title": "时尚生活"
+    },
+    {
+      "img": "/mywebapp/images/img19.jpg",
+      "title": "轻松一笑"
+    }
+  ]
+}

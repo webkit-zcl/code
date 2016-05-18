@@ -1,0 +1,12 @@
+<header>导航</header>
+<section spa-widget="scroll">
+	<div class="nav-scroll-div">
+		<ul><!--ms-repeat="navList"-->
+			<li>
+				<span><img src="/mywebapp/images/img1.jpg"/></span>
+				<div></div>
+				<span class="yo-ico">&#xe60b;</span>
+			</li>
+		</ul>
+	</div>
+</section>

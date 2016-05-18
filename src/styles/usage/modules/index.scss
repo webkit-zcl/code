@@ -1,0 +1,70 @@
+// 首页样式： index.string
+.m-index {
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    .m-index-container{
+        @include flex();
+        width: 100%;
+        position: relative;
+    }
+    footer {
+        width: 100%;
+        height: 0.44rem;
+        background: #fff;
+        @include border(1px 0 0 0, #d6d6d6);
+        ul {
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            li {
+                @include flex();
+                @include flexbox();
+                @include flex-direction(column);
+                @include align-items(center);
+                @include justify-content(center);
+                &:nth-child(3) {
+                    position: relative;
+                    i {
+                        display: block;
+                        @include border(1px, red, solid, 50%);
+                        bottom: 0;
+                        left: 50%;
+                        position: absolute !important;
+                        //border: 0.01rem solid red;
+                       // border-radius: 50%;
+                        width: 0.55rem;
+                        height: 0.55rem;
+                        background: #fff;
+                        z-index: 9999;
+                        line-height: 0.55rem;
+                        font-size: 0.38rem;
+                        color: $base-color;
+                        @include transform(translate(-50%));
+                    }
+                }
+                &.active {
+                    b,
+                    i {
+                        color: $base-color;
+                    }
+                }
+                b,
+                i {
+                    display: block;
+                    color: #666;
+                    width: 100%;
+                    text-align: center;
+                }
+                i {
+                    font-size: 0.2rem;
+                    line-height: 0.2rem;
+                }
+                b {
+                    font-size: 0.12rem;
+                }
+            }
+        }
+    }
+}

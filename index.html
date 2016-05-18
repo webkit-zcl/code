@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<link rel="stylesheet" href="/mywebapp/prd/styles/usage/app.css" />
+		<script>
+      		document.ontouchmove = function(e) {
+         	 	if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+             		e.preventDefault();
+          		}
+      		};
+  		</script>
+	</head>
+	<body>
+		<script src="/mywebapp/prd/scripts/app.js"></script>
+	</body>
+</html>

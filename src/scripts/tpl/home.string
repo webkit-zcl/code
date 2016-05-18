@@ -1,0 +1,68 @@
+<header>
+	<ul>
+	  	<li></li>
+	  	<li>时尚凉鞋</li>
+	 	<li class="yo-ico">&#xe618;</li>
+	</ul>
+</header>
+<section  spa-widget="scroll">
+	<div>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="/mywebapp/images/swiper1.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/mywebapp/images/swiper2.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/mywebapp/images/swiper3.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/mywebapp/images/swiper4.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/mywebapp/images/swiper5.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/mywebapp/images/swiper6.jpg" />
+		        </div>
+		    </div>
+		    <!-- 分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		<!--<div class="head">
+          	<img src="/mywebapp/images/arrow.png"/>
+          	<span>下拉刷新...</span>
+        </div>-->
+		<table>
+			<tr ms-repeat="homeList">
+				<td>
+					<i><img ms-src="el[0].img" /></i>
+					<b ms-text="el[0].title"></b>
+				</td>
+				<td ms-class-hidden="!el[1]">
+					<i><img ms-src="el[1].img" /></i>
+					<b ms-text="el[1].title"></b>
+				</td>
+				<td ms-class-hidden="!el[2]">
+					<i><img ms-src="el[2].img" /></i>
+					<b ms-text="el[2].title"></b>
+				</td>
+			</tr>
+		</table>
+		<!--<div class="foot">
+          	<img src="/mywebapp/images/arrow.png"/>
+          	<span>上拉加载更多...</span>
+        </div>-->
+             
+	</div>
+</section>
+
+	
+
+
+
+
+
+

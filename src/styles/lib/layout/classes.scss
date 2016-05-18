@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import "../core/variables";
+@import "../core/classes";
+/**
+ * Yo框架layout
+ -----------------------
+ * Yo内置的布局方式
+ *
+ * @class layout
+ * @module Yo
+ */
+
+// 定义区块的基础构造
+// 使用方法请查看 yo-stacked.scss
+@mixin _stacked {
+    display: block;
+    margin: map-get($stacked, margin);
+}
+
+// 定义常见弹性布局
+// 使用方法请查看 yo-flex.scss
+@mixin _flex {
+    height: 100%;
+    &,
+    .flex-inherit {
+        @include flexbox(map-get($flex, box));
+        @include flex-direction(map-get($flex, direction));
+        overflow: hidden;
+    }
+    > .flex,
+    .flex-inherit,
+    .flex-inherit > .flex {
+        @include flex(1, column);
+        position: relative;
+    }
+    > .flex,
+    .flex-inherit > .flex {
+        @include overflow;
+    }
+}
+
+// 定义常见水平垂直居中布局
+// 使用方法请查看 yo-align.scss
+@mixin _align {
+    @include flexbox;
+    @include fullscreen;
+    @include align-items;
+    @include justify-content;
+}

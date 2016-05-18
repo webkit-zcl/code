@@ -10,6 +10,6 @@ require('./views/message.js');
 
 // 定义默认视图
 SPA.config({
-  indexView: 'index'
+  indexView: 'home'
 });
 
